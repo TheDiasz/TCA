@@ -2,7 +2,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 from PIL import Image, ImageOps
+import cv2
 from multiapp import MultiApp
+from apps import home,sketch,textonimg,Face_detect,Crop,filters
 app = MultiApp()
 
 with open("style.css") as f:
