@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 from PIL import Image, ImageOps
-from cv2 import cv2
+from .cv2 import *
 from multiapp import MultiApp
 from apps import home,sketch,textonimg,Face_detect,Crop,filters
 app = MultiApp()
